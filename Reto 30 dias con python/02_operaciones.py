@@ -17,7 +17,7 @@ print("hola " * (2 ** 3))
 my_float = 2.5 * 2
 print("hola " * int(my_float))
 
-#operadores comparativos#
+# operadores comparativos #
 
 print(3 > 4)
 print(3 < 4)
@@ -26,3 +26,19 @@ print(3 <= 4)
 print(3 == 4)
 print(3 != 4)
 
+print("hola" > "python")
+print("hola" < "python")
+print("AAAA" >= "abaa") #ordenacion alfabetica por ASCII
+print(len("aaaa") >= len("abaa")) #cuenta caracteres
+print("hola" <= "python")
+print("hola" == "hola")
+print("hola" != "python")
+
+# operadores logicos #
+
+
+print(3 > 4 and "hola" > "python")
+print(3 > 4 or "hola" > "python")
+print(3 < 4 and "hola" < "python")
+print(3 < 4 or "hola" > "python" and 4 ==4)
+print(not(3 > 4 ))
