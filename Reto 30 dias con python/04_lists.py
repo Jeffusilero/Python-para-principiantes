@@ -44,6 +44,9 @@ print(my_other_list)
 my_list.remove(30) # elimina el elemento que se detalla
 print(my_list)
 
+my_list.pop() # elimina el ultimo elemento de la lista 
+print(my_list)
+
 
 my_list= "hola python"
 print(my_list)
