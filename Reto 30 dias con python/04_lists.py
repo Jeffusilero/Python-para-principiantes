@@ -51,3 +51,5 @@ print(my_list)
 my_list= "hola python"
 print(my_list)
 print(type(my_list))
+
+
