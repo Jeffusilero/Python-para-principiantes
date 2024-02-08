@@ -29,7 +29,7 @@ print(name)
 name, height, age, surname = my_other_list[2], my_other_list[1], my_other_list[0], my_other_list[3]
 print(age) #desembalaje de elementos listas
 
-print(my_list + my_other_list)
+print(my_list + my_other_list) # concatenar variables de la lista
 # print(my_list - my_other_list) error
 
 my_other_list.append("Jeffusilero") #agg nuevo elemento al final
@@ -106,16 +106,28 @@ print(mixed_Data_types)
 print(it_companies)
 
 # Imprimir el número de empresas de la lista.
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print(len(it_companies))
 
 # Imprimir la primera, mediana y última empresa.
+print(it_companies[0])
+print(it_companies[3])
+print(it_companies[6])
 
 # Imprimir la lista después de modificar una de las empresas.
+it_companies[2] = "Whatsaap"
+print(it_companies)
 
 # Agregar una empresa de TI a it_companies
+it_companies.append("Twitter")
+print(it_companies)
 
 # Inserte una empresa de TI en medio de la lista de empresas.
+it_companies.insert(4,"TI")
+print(it_companies)
 
 # Cambie uno de los nombres de it_companies a mayúsculas (¡IBM excluido!)
+print(it_companies.upper())
 
 # Únase a it_companies con una cadena '#; '
 
