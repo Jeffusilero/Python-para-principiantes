@@ -1,12 +1,12 @@
 # operaciones #
 
-print(3 + 4)
-print(3 - 4)
-print(3 * 4)
-print(3 / 4)
-print(10 % 3)
-print(10 // 3)
-print(2 ** 3)
+print(3 + 4) #suma
+print(3 - 4) #resta
+print(3 * 4) #multiplicacion
+print(3 / 4) #division
+print(10 % 3) #modulo
+print(10 // 3) #division de piso
+print(2 ** 3) #exponente o exponenciacion
 print(2 ** 3 + 3 - 7 / 1 //4)
 
 print("hola " + "python " + '¿que tal?')
@@ -19,12 +19,12 @@ print("hola " * int(my_float))
 
 # operadores comparativos #
 
-print(3 > 4)
-print(3 < 4)
-print(3 >= 4)
-print(3 <= 4)
-print(3 == 4)
-print(3 != 4)
+print(3 > 4) #mayor
+print(3 < 4) #menor
+print(3 >= 4) #mayor que
+print(3 <= 4) #menor que 
+print(3 == 4) # igual
+print(3 != 4) #distinto
 
 print("hola" > "python")
 print("hola" < "python")

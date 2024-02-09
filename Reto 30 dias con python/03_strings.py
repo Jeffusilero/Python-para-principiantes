@@ -19,7 +19,7 @@ print(my_scape_string)
 
 # formateo
 
-name, surname, age ="Jefferson", "Lascano", 29
+name, surname, age ="Jefferson", "Lascano", 29 #tuplas
 
 print("Mi nombre es {} {} y mi edad es {}".format(name,surname,age))
 print("Mi nombre es %s %s y mi edad es %d" %(name,surname,age))
