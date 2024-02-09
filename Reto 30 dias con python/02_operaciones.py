@@ -48,10 +48,13 @@ print(not(3 > 4 ))
 
 
 # Declara tu edad como variable entera
+edad = 29
 
 # Declara tu altura como una variable flotante
+al = (1.65)
 
 # Declarar una variable que almacene un número complejo
+nc = 1+3j
 
 # Escriba un script que solicite al usuario que ingrese la base y la altura del triángulo y calcule el área de este triángulo (área = 0,5 xbxh).
 # ** Enter base: 20
