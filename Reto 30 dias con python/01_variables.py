@@ -146,5 +146,9 @@ radio=30
 # Tome el radio como entrada del usuario y calcule el área.
 
 # Utilice la función de entrada incorporada para obtener el nombre, apellido, país y edad de un usuario y almacenar el valor en sus nombres de variables correspondientes.
+nombre=input("Ingrese su nombre: ")
+apellido=input("Ingese su apellido: ")
+pais=input("Ingrese su pais de origen: ")
+edad=input("Ingrese su edad actual: ")
 
 # Ejecute ayuda ('palabras clave') en el shell de Python o en su archivo para verificar las palabras clave o palabras reservadas de Python.
