@@ -4,7 +4,10 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #ce80ad;
+    background-image: url("/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -24,7 +27,7 @@ button {
 }
 #siBtn {
     padding: 10px 20px; 
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px;
     cursor: pointer;
     background-color: #009705; /* Verde */
@@ -38,7 +41,7 @@ button {
     font-size: 16px;
     margin: 10px;
     cursor: pointer;
-    background-color: #FF5733; /* Rojo */
+    background-color: #ec0505; /* Rojo */
     color: white;
     border: 2px solid #FFC0CB; /* Bordes rosa */
     border-radius: 10px; /* Esquinas redondeadas */
@@ -56,14 +59,14 @@ button {
     background-color: #641e0d; /* Cambia a otro color en hover, puedes ajustar el valor según tus preferencias */
 }
 .bg-green {
-    background-color: #ffffff; /* Nuevo color de fondo verde */
+    background-color: #ce80ad; /* Nuevo color de fondo verde */
 }
 
 #messageContainer {
     font-size: 30px;
-    color: #FF0000; /* Color rojo */
+    color: #000000; /* Color rojo */
     font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
-    text-shadow: 2px 2px 4px #000; /* Borde simulado */
+    text-shadow: 2px 2px 4px #fffefe; /* Borde simulado */
     animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
 }
 
