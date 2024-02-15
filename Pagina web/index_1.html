@@ -34,7 +34,7 @@
                     </dd>
     
     <a name="requisitos"></a>
-                <li><h2>Requisitos para registrarse</h2></li>
+                <li><h2>Requisitos para postulantes</h2></li>
                     <dd>
                         <p>Favor añadir los siguientes datos:</p>
                     </dd>
@@ -43,7 +43,46 @@
                             <li><strong>Apellido:</strong></li>
                             <li><strong>Edad:</strong></li>
                             <li><strong>Ciudad:</strong></p></li>
-                        </ul>  
+                        </ul>
+                <li><h2>Registrate Gratis</h2></li>
+                <form action="registradatos.php" method="post">
+                    Ingrese su nombre: <br>
+                    <input type="text" name="Nombre" size="20"><br>
+                    Ingrese su contraseña <br>
+                    <input type="password" name="Clave" size="12"><br>
+                    Ingrese su comentario <br>
+                    <textarea name="COmentario" cols="50" rows="4"></textarea><br>
+                    Seleccione el lenguaje que desea aprender: <br>
+                    <input type="checkbox" name="python">Python <br>
+                    <input type="checkbox" name="msql">Mysql <br>
+                    <input type="checkbox" name="html">Html <br>
+                    <input type="checkbox" name="css">CSS <br>
+                    <input type="checkbox" name="jscript">JsCript <br>
+                    Seleccione su nivel de conocimiento <br>
+                    <input type="radio" name="estudios" value="1">Junior <br>
+                    <input type="radio" name="estudios" value="2">Semi Senior <br>
+                    <input type="radio" name="estudios" value="3">Senior <br>
+                    Seleccione su cuidad de Origen <br>
+                    <select name="ciudades" >
+                        <option value="1">Guayaquil</option> <br>
+                        <option value="2">Quito</option> <br>
+                        <option value="3">Machala</option> <br>
+                        <option value="4">Quevedo</option> <br>
+                        <option value="5">Milagro</option> <br>
+                        <option value="6">Santo Domingo</option> <br>
+                        <option value="7">Manabi</option> <br>
+                        <option value="8">Manta</option> <br>
+                        <option value="9">Posorja</option> <br>
+                        <option value="10">Babahoyo</option>
+                    </select> <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+
+
+
+
+
+                </form>
             </dl>
         </ol>
 </body>
