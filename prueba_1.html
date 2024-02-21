@@ -33,16 +33,53 @@
                             <a href="https://code.visualstudio.com/">aqui )</a></li>
                         <li>Tener cuenta en <a href="https://www.github.com/">GitHub</a> </li>
                         <li>Teclado mecanico</li>
-                        <li>Disco sd 520 gigas</li>
+                        <li>Disco SD 520 Gigas</li>
                     </ul>
 
             <h3><li>Registrate</li></h3>
+        <form action="base_1.php" method="post" >
+            Ingrese su nombre: <br>
+            <input type="text" name="nombre" size="20" > <br>
+
+            Ingrese contraseña: <br>
+            <input type="password" name="contraseña" size="15"> <br>
+
+            Comentarios: <br>
+            <textarea name="comentario" cols="50" rows="6"></textarea> <br><br>
+
+            Seleccione el lenguaje que desea aprender <br>
+            <input type="checkbox" name="python">Python <br>
+            <input type="checkbox" name="mysql">Mysql <br>
+            <input type="checkbox" name="html">Html <br>
+            <input type="checkbox" name="css">Css <br>
+            <input type="checkbox" name="jscript">Java Script <br><br>
+
+            Seleccione su nivel de conocimiento <br>
+            <input type="radio" name="estudio" value="1">Junior <br>
+            <input type="radio" name="estudio" value="2">Semi Senior <br>
+            <input type="radio" name="estudio" value="3">Senior <br><br>
+
+            Ciudad de Origen <br>
+            <select name="ciudades" >
+                <option value="1">Guayaquil</option>
+                <option value="2">Quito</option>
+                <option value="3">Machala</option>
+                <option value="4">Santo Domingo de los Sachas</option>
+                <option value="5">Babahoyo</option>
+                <option value="6">Manta</option>
+                <option value="7">Milagro</option>
+                <option value="8">Quevedo</option>
+                <option value="9">Posorja</option>
+                <option value="10">Manabi</option>
+            </select> <br><br>
 
 
 
 
 
-
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </form>
         </ol><br><br>
     
      <br>
