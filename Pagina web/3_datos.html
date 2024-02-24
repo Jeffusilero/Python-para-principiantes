@@ -62,9 +62,32 @@
         </tr>
         </table> <br>
 
+        <h1>Orden de foco controles con tab</h1>
+        <p>tabindex es un valor entero entre 0 a 32767</p>
+        <form action="base_3.php" method="post">
+            <input type="text" name="text1" size="5" tabindex="1">
+            <input type="text" name="text2" size="5" tabindex="4">
+            <input type="text" name="text3" size="5" tabindex="7">
+            <br>
+            <input type="text" name="text4" size="5" tabindex="2">
+            <input type="text" name="text5" size="5" tabindex="5">
+            <input type="text" name="text6" size="5" tabindex="8">
+            <br>
+            <input type="text" name="text7" size="5" tabindex="3">
+            <input type="text" name="text8" size="5" tabindex="6">
+            <input type="text" name="text9" size="5" tabindex="9">
+            <br>
+            <input type="submit" value="enviar" tabindex="10">
+
+
+
+
+
+        </form>
+
         <h1>Calculadora de pc</h1>
         <!-- se agg desde donde se extraera la informacion para la base de datos -->
-        <form action="base_3.php" method="post">
+        <form action="base_4.php" method="post">
             <h2>Total:</h2>
             <!-- input type="button" crear botones que dependera de java script  -->
             <!-- name="" el nombre para la base y value="" lo que estara dentro del boton -->
@@ -87,10 +110,11 @@
             <input type="button" name="botigu" value=" = ">
             <input type="button" name="botmen" value=" - ">
         </form> <br>
+
         <h1>Operadores de comparacion</h1>
         <!-- con multiple="muliple" permite resaltar automaticamente los que 
         tenga selected ingresado en el option de -->
-        <form action="base_4.php" method="post">
+        <form action="base_5.php" method="post">
             <select name="Elije el signo[]" size="6" multiple="multiple">
                 <option value="1" selected>mayor que ></option>
                 <option value="2">menor que <</option>
