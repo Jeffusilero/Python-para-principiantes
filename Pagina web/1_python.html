@@ -55,15 +55,15 @@
         <form action="base_1.php" method="post"  >
             <strong>Usuario</strong> <br>
             <!-- con type text permite ingresa texto en un cuadro -->
-            <input type="text" name="usuario" size="20"> <br>
+            <input type="text" name="usuario" size="20" maxlength="11"> <br>
 
             <!-- con type password la contraseña aparece con * -->
             <strong>Contraseña</strong> <br>
-            <input type="password" name="contraseña" size="10"> <br>
+            <input type="password" name="contraseña" size="20" maxlength="15"> <br>
 
             <!-- permite ingresar comentario el cols es el ancho y rows lo alto -->
             <strong>Comentarios: </strong> <br>
-            <textarea name="comentario" cols="40" rows="6">Comentario personal</textarea> <br><br>
+            <textarea name="comentario" cols="40" rows="6" readonly>Comentario personal</textarea> <br><br>
 
             <!-- puede seleccionar algunos item  -->
             <strong>Seleccion el lenguaje que desea aprender</strong> <br>
