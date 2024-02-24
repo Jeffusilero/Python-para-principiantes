@@ -49,24 +49,24 @@
                 <li>Disco SSD 520 Gigas</li>
             </ul>
         <li><h3>Registrate</h3></li>
-    </ol>
+    
         <!-- action=base_1,php es el nombre de la base que estara en nuestro servidor -->
         <!-- y method="post" se agg por predeterminador  -->
         <form action="base_1.php" method="post"  >
-            Ingrese su nombre <br>
+            <strong>Ingrese su nombre</strong> <br>
             <!-- con type text permite ingresa texto en un cuadro -->
             <input type="text" name="nombre" size="20"> <br>
 
             <!-- con type password la contraseña aparece con * -->
-            Ingrese contraseña <br>
+            <strong>Ingrese contraseña</strong> <br>
             <input type="password" name="contraseña" size="10"> <br>
 
             <!-- permite ingresar comentario el cols es el ancho y rows lo alto -->
-            Comentarios: <br>
+            <strong>Comentarios: </strong> <br>
             <textarea name="comentario" cols="40" rows="6"></textarea> <br><br>
 
             <!-- puede seleccionar algunos item  -->
-            Seleccion el lenguaje que desea aprender <br>
+            <strong>Seleccion el lenguaje que desea aprender</strong> <br>
             <input type="checkbox" name="python"> Python <br>
             <input type="checkbox" name="mysql"> Mysql <br>
             <input type="checkbox" name="html"> Html <br>
@@ -74,12 +74,12 @@
             <input type="checkbox" name="java script"> Java Script <br><br>
 
             <!-- se puede hacer seleccion de un solo item  -->
-            Seleccione su nivel de conocimiento <br>
+            <strong>Seleccione su nivel de conocimiento</strong> <br>
             <input type="radio" name="estudio" value="1"> Junior <br>
             <input type="radio" name="estudio" value="2"> Semi Senior <br>
             <input type="radio" name="estudio" value="3"> Senior <br><br>
 
-            Ciudad de Origen <br>
+            <strong>Ciudad de Origen <br>
             <!-- (para hacer seleccion multiple con ctrl) 
                 select name="ciudades[]" size="3" multiple> -->
             <select name="Ciudades[]"> <br>
@@ -100,7 +100,6 @@
                     <option value="10">Cotopaxi</option>
                 </optgroup>
             </select> <br><br>
-
             <!-- puedes usar type= submit - type="reset" - type="button" -->
             <!-- type="submit" value="enviar" - para enviar datos   -->
             <!-- type="reset" value="borrar - borrar datos -->
@@ -108,11 +107,14 @@
             <button type="submit">Enviarr <img src="enviar.gif" alt="envio"></button>
             <button type="reset">Borrar <img src="borrar.gif" alt="borrar"></button>
         </form> <br>
+    </ol>
+    <h1>Soporte</h1>
         <!-- nos dirige a la pagina ingresada que este en nuestro ordenador -->
         <p>Para clases de base de datos da clic aqui ----> <a href="2_mysql.html"><img src="./mysql.png" alt="mysql"></a></p>
         <p>Para tipos de datos da clic aqui ----> <a href="3_datos.html"><img src="python.png" alt="python"></a></p>
         <!-- nos permite enviar correo que tengamos configurado y con copia al remitente -->
         <a href="mailto:jeffersonandres2002@hotmail.com?subject=prueba de pagina&body=
         contenido del correo&cc=jeffersonandres2002@gmail.com&bcc=jefflascano@hotmail.com">Correo </a>
+
 </body>
 </html>
