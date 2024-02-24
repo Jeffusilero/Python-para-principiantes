@@ -38,11 +38,14 @@
                         </ul> 
             </dl>
             <li><h2>Cargue foto tamaño carnet:</h2></li>
+            <!-- con enctype="multipart/form-data" se indica la navegador que el 
+            formulario almacena 1 o mas tipos de archivos-->
             <form action="base_3.php" method="post" enctype="multipart/form-data">
                 Ingrese su nombre: <br>
                 <input type="text" name=""nombre" size="30"> <br><br>
                 
                 Seleccion la foto: <br>
+                <!-- permite ingresar archivo directamente desde la pc -->
                 <input type="file" name="foto"> <br>
                 <input type="submit" value="Envia">
 
