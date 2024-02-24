@@ -29,12 +29,14 @@
 
     <a name="requisitos"></a>
                 <li><h2>Requisitos para postulantes</h2></li>
-                        <ul>
-                            <li>Nombre:</li>
-                            <li>Apellido:</li>
-                            <li>Edad:</li>
-                            <li>Ciudad:</li>
-                        </ul> 
+                <form action="base_2.php" method="post">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        Apellido 
+
+
+                    </fieldset>
+                </form>
             </dl>
             <li><h2>Cargue foto tamaño carnet:</h2></li>
             <!-- con enctype="multipart/form-data" se indica la navegador que el 
@@ -46,6 +48,9 @@
                 Seleccion la foto: <br>
                 <!-- permite ingresar archivo directamente desde la pc -->
                 <input type="file" name="foto"> <br>
+                <!-- el type="hidden" permite registrar la hora que se cargo el
+                documento en la base de dato y es oculto al cliente -->
+                <input type="hidden" value="12:00" name="hora">
                 <input type="submit" value="Envia">
 
 
