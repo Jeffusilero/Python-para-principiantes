@@ -30,10 +30,28 @@
     <a name="requisitos"></a>
                 <li><h2>Requisitos para postulantes</h2></li>
                 <form action="base_2.php" method="post">
+                    <!-- con fieldset agrupa todos lo controles y legend 
+                    es el titulo que llevara cada grupo -->
                     <fieldset>
                         <legend>Datos personales</legend>
-                        Apellido 
-
+                        Apellidos
+                        <input type="text" name="apellidos" size="20"> <br>
+                        Nombres:
+                        <input type="text" name="nombres" size="20"> <br>
+                        Celular: 
+                        <input type="text" name="celular" size="15" value="+593"> <br><br>
+                        Es mayor de edad? <br>
+                        <input type="radio" name="confirma edad" value="Si" checked>Si <br>
+                        <input type="radio" name="confirma edad" value="No">No <br>
+                        Edad:
+                        <input type="text" name="edad" size="8"> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos academico</legend>
+                        Nivel de estudio <br>
+                        <input type="radio" name="nivel estudio" value="1">Bachiler <br>
+                        <input type="radio" name="nivel estudio" value="2">Tecnologico <br>
+                        <input type="radio" name="nivel estudio" value="3">Postgrado
 
                     </fieldset>
                 </form>
@@ -42,8 +60,8 @@
             <!-- con enctype="multipart/form-data" se indica la navegador que el 
             formulario almacena 1 o mas tipos de archivos-->
             <form action="base_3.php" method="post" enctype="multipart/form-data">
-                Ingrese su nombre: <br>
-                <input type="text" name=""nombre" size="30"> <br><br>
+                Ingrese usuario: <br>
+                <input type="text" name="tipo usuario" size="20" value="usuario de ingreso"> <br><br>
                 
                 Seleccion la foto: <br>
                 <!-- permite ingresar archivo directamente desde la pc -->

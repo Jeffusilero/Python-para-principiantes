@@ -53,17 +53,17 @@
         <!-- action=base_1,php es el nombre de la base que estara en nuestro servidor -->
         <!-- y method="post" se agg por predeterminador  -->
         <form action="base_1.php" method="post"  >
-            <strong>Ingrese su nombre</strong> <br>
+            <strong>Usuario</strong> <br>
             <!-- con type text permite ingresa texto en un cuadro -->
-            <input type="text" name="nombre" size="20"> <br>
+            <input type="text" name="usuario" size="20"> <br>
 
             <!-- con type password la contraseña aparece con * -->
-            <strong>Ingrese contraseña</strong> <br>
+            <strong>Contraseña</strong> <br>
             <input type="password" name="contraseña" size="10"> <br>
 
             <!-- permite ingresar comentario el cols es el ancho y rows lo alto -->
             <strong>Comentarios: </strong> <br>
-            <textarea name="comentario" cols="40" rows="6"></textarea> <br><br>
+            <textarea name="comentario" cols="40" rows="6" >Comentario personal</textarea> <br><br>
 
             <!-- puede seleccionar algunos item  -->
             <strong>Seleccion el lenguaje que desea aprender</strong> <br>
@@ -82,14 +82,14 @@
             <strong>Ciudad de Origen <br>
             <!-- (para hacer seleccion multiple con ctrl) 
                 select name="ciudades[]" size="3" multiple> -->
-            <select name="Ciudades[]"> <br>
+            <select name="Ciudades[]" size="1"> <br>
                 <!-- con optgroup permite agrupar un conjunto de elemento en el label que  -->
                 <!-- sera el titulo del cuadro -->
                 <optgroup label="Costa">
                     <option value="1">Guayaquil</option>
                     <option value="2">Machala</option>
                     <option value="3">Milagro</option>
-                    <option value="4">Manta</option>
+                    <option value="4" >Manta</option>
                     <option value="5">Babahoyo</option>
                 </optgroup>
                 <optgroup label="Sierra">
