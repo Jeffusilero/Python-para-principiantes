@@ -63,20 +63,27 @@
             <input type="radio" name="estudio" value="3"> Senior <br><br>
 
             Ciudad de Origen <br>
-            <select name="Ciudades"> <br>
-                <option value="1">Guayaquil</option>
-                <option value="2">Quito</option>
-                <option value="3">Cuenca</option>
-                <option value="4">Machala</option>
-                <option value="5">Quevedo</option>
-                <option value="6">Babahoyo</option>
-                <option value="7">Santo Domingo</option>
-                <option value="8">Milagro</option>
-                <option value="9">Manta</option>
-                <option value="10">Posorja</option>
+            <!-- (para hacer seleccion multiple) <select name="ciudades" size="3" multiple></select> -->
+            <select name="Ciudades[]"> <br>
+                <optgroup label="Costa">
+                    <option value="1">Guayaquil</option>
+                    <option value="2">Machala</option>
+                    <option value="3">Milagro</option>
+                    <option value="4">Manta</option>
+                    <option value="5">Babahoyo</option>
+                </optgroup>
+                <optgroup label="Sierra">
+                    <option value="6">Quito</option>
+                    <option value="7">Cuenca</option>
+                    <option value="8">Pichincha</option>
+                    <option value="9">Ambato</option>
+                    <option value="10">Cotopaxi</option>
+                </optgroup>
             </select> <br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="borrar">
+
+            <!-- puedes usar type= submit - type="reset" - type="button" -->
+            <button type="submit">Enviarr <img src="enviar.gif" alt="envio"></button>
+            <button type="reset">Borrar <img src="borrar.gif" alt="borrar"></button>
         </form> <br>
         <p>Para clases de base de datos da clic aqui ----> <a href="2_mysql.html"><img src="./mysql.png" alt="mysql"></a></p>
         <p>Para tipos de datos da clic aqui ----> <a href="3_datos.html"><img src="python.png" alt="python"></a></p>
