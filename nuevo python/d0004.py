@@ -1,1 +1,0 @@
-lista_colores = ["rojo","azul","verde","amarillo",10,5.76,"Saturno"]
