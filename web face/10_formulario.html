@@ -19,39 +19,52 @@
         Direccion 
         <input type="text" name="direccion" size="40"> <br>
         Fecha de nacimiento
-        <input type="text" name="nacimiento" size="15" maxlength="10" value="29/08/2001"> <br>
+        <input type="text" name="nacimiento" size="15" maxlength="10" value="29/08/2001" disabled> <br>
         Celular
         <input type="text" name="celular" size="10" maxlength="14"> <br>
         Pais de origen
-        <select name="Paises">
-            <option value="1">Ecuador</option>
-            <option value="2">Peru</option>
-            <option value="3">Colombia</option>
-            <option value="4">Chile</option>
-            <option value="5">Paraguay</option>
-            <option value="6">Argentina</option>
-            <option value="7">Brasil</option>
-            <option value="8">Uruguay</option>
-            <option value="9">Venezuela</option>
-            <option value="10">Bolivia</option>
-            <option value="11">Guyana</option>
+        <select name="Paises[]" size="1">
+            <optgroup label="Region Sur">
+                <option value="1">Ecuador</option>
+                <option value="2">Peru</option>
+                <option value="3">Colombia</option>
+                <option value="4">Chile</option>
+                <option value="5">Paraguay</option>
+                <option value="6">Argentina</option>
+                <option value="7">Brasil</option>
+                <option value="8">Uruguay</option>
+                <option value="9">Venezuela</option>
+                <option value="10">Bolivia</option>
+                <option value="11">Guyana</option>
+            </optgroup>
+            <optgroup label="Region Centro">
+                <option value="12">Mexico</option>
+                <option value="13">Panama</option>
+                <option value="14">Cuba</option>
+
+            </optgroup>
         </select> <br><br>
+
+
+
         <strong>Cargue foto tamaño carnet</strong> <br>
         <input type="file" name="foto">
         <input type="hidden" value="12:00" name="hora de envio">
 
     <h2>Datos academicos</h2>
-    Escuela
-    <input type="text" name="estudio" size="35"> <br>
-    Colegio 
-    <input type="text" name="colegio" size="40"> <br>
-    Titulo 
-    <input type="text" name="titulo" size="40"><br>
     Nivel de estudio <br>
-    <input type="checkbox" name="nivel estudio"> Tercel nivel <br>
-    <input type="checkbox" name="nivel estudio"> Universitario <br>
+    <input type="checkbox" name="nivel estudio"> Bachiler <br>
+    <input type="checkbox" name="nivel estudio"> Tercer nivel <br>
     <input type="checkbox" name="nivel estudio"> Postgrado <br>
     <input type="checkbox" name="nivel estudio"> Maestria <br>
+
+    Titulo 
+    <input type="text" name="titulo" size="40"><br><br>
+
+    Comentario <br>
+    <textarea name="comentario for" cols="35" rows="7">ingrese un comentario referente a que desea que se agregue al curso 
+    </textarea>
+
 
 
 
