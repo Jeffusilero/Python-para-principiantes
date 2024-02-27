@@ -6,10 +6,9 @@
     <title>Jeffusilero/formulario.com</title>
 </head>
 <body>
-    <a href="4_inicio.html"><button type="submit"><img src="../Pagina web/inicio.png" alt="inicio"></button></a>
     <h1>Formulario </h1>
     <h2>Datos personales</h2>
-    <form action="base1.php" method="post">
+    <form action="base1.php" method="post" enctype="multipart/form-data">
         Nombres
         <input type="text" name="nombre" size="20"> <br>
         Apellidos 
@@ -61,14 +60,7 @@
     Titulo 
     <input type="text" name="titulo" size="40"><br><br>
 
-    Comentario <br>
-    <textarea name="comentario for" cols="35" rows="7">ingrese un comentario referente a que desea que se agregue al curso 
-    </textarea>
-
-
-
-
-
+    <a href="4_inicio.html"><input type="button" name="fin formulario" value="Enviar"></a>
 
     </form>
 </body>
