@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffusilero/formulario.com</title>
+    <style>
+        h2 {color:chocolate}
+    </style>
+</head>
+<body>
+    <h1>Formulario </h1>
+    <h2>Datos personales</h2>
+    <form action="base1.php" method="post" enctype="multipart/form-data">
+        Nombres
+        <input type="text" name="nombre" size="20"> <br>
+        Apellidos 
+        <input type="text" name="apellidos" size="20"> <br>
+        Email 
+        <input type="email" name="correo electronico" size="25"> <br>
+        Direccion 
+        <input type="text" name="direccion" size="40"> <br>
+        Fecha de nacimiento
+        <input type="text" name="nacimiento" size="15" maxlength="10" value="29/08/2001" disabled> <br>
+        Celular
+        <input type="text" name="celular" size="10" maxlength="14"> <br>
+        Pais de origen
+        <select name="Paises[]" size="1">
+            <optgroup label="Region Sur">
+                <option value="1">Ecuador</option>
+                <option value="2">Peru</option>
+                <option value="3">Colombia</option>
+                <option value="4">Chile</option>
+                <option value="5">Paraguay</option>
+                <option value="6">Argentina</option>
+                <option value="7">Brasil</option>
+                <option value="8">Uruguay</option>
+                <option value="9">Venezuela</option>
+                <option value="10">Bolivia</option>
+                <option value="11">Guyana</option>
+            </optgroup>
+            <optgroup label="Region Centro">
+                <option value="12">Mexico</option>
+                <option value="13">Panama</option>
+                <option value="14">Cuba</option>
+
+            </optgroup>
+        </select> <br><br>
+
+
+
+        <strong>Cargue foto tamaño carnet</strong> <br>
+        <input type="file" name="foto">
+        <input type="hidden" value="12:00" name="hora de envio">
+
+    <h2>Datos academicos</h2>
+    Nivel de estudio <br>
+    <input type="checkbox" name="nivel estudio"> Bachiler <br>
+    <input type="checkbox" name="nivel estudio"> Tercer nivel <br>
+    <input type="checkbox" name="nivel estudio"> Postgrado <br>
+    <input type="checkbox" name="nivel estudio"> Maestria <br>
+
+    Titulo 
+    <input type="text" name="titulo" size="40"><br><br>
+
+    <a href="index.html"><input type="button" name="fin formulario" value="Enviar"></a>
+
+    </form>
+</body>
+</html>
