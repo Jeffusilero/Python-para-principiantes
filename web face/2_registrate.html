@@ -7,12 +7,13 @@
 </head>
 <body>
     <h1>Registrarse</h1>
+    <div style="background-color:#DFFAB0">
     <form action="base1.php" method="post">
         <fieldset>
             <legend>Datos personales</legend>
             <input type="text" name="nombre" size="20" value="Nombre" style="text-decoration: underline;">
             <input type="text" name="apellido" size="20" value="Apellido" style="text-decoration: overline"><br>
-            <input type="text" name="correo electronico" size="35" value="Correo electronico" style="text-decoration: line-through;"><br>
+            <input type="text" name="correo electronico" size="35" value="Correo electronico" ><br>
             <input type="text" name="contraseña nueva" size="35" value="Contraseña nueva"><br><br>
             
             Fecha de nacimiento<br>
@@ -91,12 +92,13 @@
                 <option value="000">2000</option>
             </select><br><br>
             Sexo <br>
-        <input type="radio" name="sexo" value="m">Mujer
+        <input type="radio" name="sexo" value="m"><span style="text-decoration: underline;">Mujer</span>
         <input type="radio" name="sexo" value="h">Hombre <br><br>
 
         <a href="1_login.html"> <input type="button" name="registrase" value="Registrarse"></a>
         </fieldset>
     </form>
+    </div>
     
 </body>
 </html>
